@@ -1,0 +1,8 @@
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+  <div class="hero-container" data-aos="fade-in">
+    <h1>{{(detailPersonalInf1$ | async)?.name }}</h1>
+    <p>I'm {{(detailPersonalInf1$ | async)?.backgroudItem}}<span class="typed" [attr.data-typed-items]="(detailPersonalInf1$ | async)?.backgroudItem" ></span></p>
+   
+  </div>
+</section><!-- End Hero -->   

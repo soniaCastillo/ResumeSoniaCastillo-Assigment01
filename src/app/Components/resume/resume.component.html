@@ -1,0 +1,50 @@
+ <!-- ======= Resume Section ======= -->
+ <section id="resume" class="resume">
+  <div class="container" *ngFor="let item of array; let i=index">
+
+    <div class="section-title">
+      <h2>Resume</h2>
+      <p>{{item.resume}}</p>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6" data-aos="fade-up" >
+        <h3 class="resume-title">Sumary</h3>
+        <div class="resume-item pb-0">
+          <h4>{{item.name}}</h4>
+          <p><em>{{item.sumary}}</em></p>
+          <ul>
+            <li>{{item.personalInf.location}}</li>
+            <li>{{item.personalInf.phone}}</li>
+            <li>{{item.personalInf.email}}</li>
+          </ul>
+        </div>
+
+        <h3 class="resume-title">Education</h3>
+        <div *ngFor="let ed of item.education let i = index">
+          <div class="resume-item">
+            <h4>{{ed.program}}</h4>
+            <h5>{{ed.year}}</h5>
+            <p><em>{{ed.organization}}{{ed.year}}</em></p>
+           
+          </div>
+        </div>
+      </div> 
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+        <h3 class="resume-title">Professional Experience</h3>
+        <div *ngFor="let pe of item.experience let i = index">
+          <div class="resume-item">
+            <h4>{{pe.job}}</h4>
+            <h5>{{pe.date}}</h5>
+            <p><em>{{pe.city}} </em></p>
+            <ul *ngFor="let des of pe.description let i = index">
+              <li>{{des.item}}</li>
+            </ul>
+          </div>
+        </div>
+      
+      </div>
+    </div>
+
+  </div>
+</section><!-- End Resume Section -->

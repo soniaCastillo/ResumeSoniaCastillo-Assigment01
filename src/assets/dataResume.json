@@ -1,0 +1,117 @@
+{
+  "personalInf":{
+     "name": "Sonia Castillo",
+     "bithday": "June 03",
+     "age": "30",
+     "degree":"Systems Engineering",
+     "webSite":"sonia-castillo-barrios.com",
+     "phone":"647-3801478",
+     "email":"soeli.castillo.barrios@gmail.com",
+     "city":"Mississauga, Canada",
+     "location":"3513 Adam Street, Mississauga, L5B 4E7",
+     "freelancer":"Available",
+     "backgroudItem":"Developer, Full-Stack Developer, .NET MVC, C#"
+     },
+  "background":"Full-Stack .NET",
+  "about": "Software developer with over 10 years of experience, I have extensive knowledge in multiple technologies such as C#.NET, PHP, JavaScript, HTML, ASP.NET MVC framework, Postgres, SQL Server in different mining, education and tax projects. I am a person who likes challenges, within my core competencies is teamwork and the ability to analyze and synthesize. I am looking for opportunities as a Full-Stack Web Developer in remote mode.",
+  "skill":"Passionate and curious about technologies, continuously acquiring new knowledge and technical skills",
+  "skills": [
+       {"name":"C#","val":"100"},
+       {"name":"Rest API","val":"70"},
+       {"name":"HTML","val":"80"},
+       {"name":"SQL Server","val":"90"},
+       {"name":"Javascript","val":"70"},
+       {"name":"Angular","val":"40"}
+    
+  ],
+  "resume":"Learning more about me..",
+  "sumary":"Dedicated and reliable Software Developer with over 10 years of experience in web application development using multiple technologies such as C# .NET, JavaScript, HTML, ASP.NET Core MVC Framework, Postgres and SQL Server. Adaptive and creative professional with strong collaboration and problem-solving abilities.",
+  "education":[
+        {"program":"Full Stack .NET Cloud Developer","organization":"Humber College","city":"Toronto, Canada","year":"2024"},
+        {"program":"Bachelor of Systems Engineering Program","organization":"Santa Maria Catholic University","city":"Arequipa, Perú","year":"2024"}
+    
+   ],
+  "experience":[
+    {"job":"Freelancer .NET Full Stack Developer",
+      "date":"Sep 2022 – Present",
+      "city":"Mississauga, ON",
+      "description":[
+            {"item":"Proudly developed multiple projects in ASP.NET Core, MVC, C#, jQuery, JavaScript, and Bootstrap. Successfully designed the portfolio for a designer client which resulted in significant increase of business by 30%."},
+            {"item":"Developed and implemented website for an import and export company which increased sales by 20%."},
+            {"item":"Designed and implemented databases in SQL Server 2019."}
+      ]},
+    {"job":"Computer Science Teacher, P T",
+      "date":"Jan 2018 – Aug 2022",
+      "city":"Arequipa, Perú",
+      "description":[
+            {"item":"Achieved a 30% improvement in the programming skills of students through teaching programming courses such as C#."},
+            {"item":"Incorporated teaching and learning strategies and promoted cognitive and personal development of the students through practical exercises applied to the working world."}
+         
+            ]}
+  ],
+  "portfolio":[
+    {
+      "type":"filter-app",
+      "src":"assets/img/portfolio/portfolio-1.jpg",
+      "des":"description about my portfolio 1"
+  },
+    {
+      "type":"filter-app",
+      "src":"assets/img/portfolio/portfolio-2.jpg",
+      "des":"description about my portfolio 2"
+  },
+    {
+      "type":"filter-app",
+      "src":"assets/img/portfolio/portfolio-3.jpg",
+      "des":"description about my portfolio 3"
+  },
+    {
+      "type":"filter-card",
+      "src":"assets/img/portfolio/portfolio-4.jpg",
+      "des":"description about my portfolio 4"
+  },
+    {
+      "type":"filter-card",
+      "src":"assets/img/portfolio/portfolio-5.jpg",
+      "des":"description about my portfolio 5"
+  },
+    {
+      "type":"filter-card",
+      "src":"assets/img/portfolio/portfolio-6.jpg",
+      "des":"description about my portfolio 6"
+  },
+     {
+      "type":"filter-web",
+      "src":"assets/img/portfolio/portfolio-7.jpg",
+      "des":"description about my portfolio 7"
+  },
+     {
+      "type":"filter-web",
+      "src":"assets/img/portfolio/portfolio-8.jpg",
+      "des":"description about my portfolio 8"
+  },
+  {
+      "type":"filter-web",
+      "src":"assets/img/portfolio/portfolio-9.jpg",
+      "des":"description about my portfolio 9"
+  }
+  ],
+  "references":[
+      {"detail":"Sonia is a professional with a great attitude, good management of the skills she possesses and great openness to change. She was a great support for the achievement of the objectives of the work we were developing and now with the new challenges she has taken on, gives her the opportunity to provide efficient and effective solutions to the clients she works with.",
+      "name":"Marco Soldevilla",
+      "rol":"Software Developer",
+      "photo":"assets/img/testimonials/testimonials-1.jpg"
+      },
+    {"detail":"Sonia is a natural leader. Her quest to find the root problem shows when I have listened to her ask questions that get to the heart of the matter. She gets right to the point which facilitates conversations in the search for solutions. She is a Systems Engineering professional who knows how to help her clients.",
+      "name":"Andres Paul",
+      "rol":"Full Stack .Net",
+      "photo":"assets/img/testimonials/testimonials-2.jpg"
+      },
+       {"detail":"Sonia es una líder natural. Su búsqueda por encontrar el problema raíz se nota cuando la he escuchado haciendo preguntas que van al fondo del asunto. Va directo al grano lo que facilita las conversaciones en la búsqueda de soluciones. Es una profesional de la Ingeniería de Sistemas que sabe como ayudar a sus clientes. ",
+       "name":"Cesar Smith","rol":".Net Developer","photo":"assets/img/testimonials/testimonials-3.jpg"
+      }
+
+    
+  ],
+  "contact":"If you would like to work with me please do not hesitate to contact me."
+}

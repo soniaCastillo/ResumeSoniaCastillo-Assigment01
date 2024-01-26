@@ -1,0 +1,40 @@
+<!-- ======= About Section ======= -->
+<section id="about" class="about">
+  <div class="container" *ngFor="let item of data; let i=index">
+
+    <div class="section-title" >
+      <h2>About</h2>
+      <p>{{item.about}}</p>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4" data-aos="fade-right">
+        <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+        <h3>{{item.background}}</h3>
+        
+        <div class="row">
+          <div class="col-lg-6">
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>{{(detailPersonalInf$ | async)?.bithday }}</span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>{{(detailPersonalInf$ | async)?.webSite }}</span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>{{(detailPersonalInf$ | async)?.phone }}</span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>{{(detailPersonalInf$ | async)?.city }}</span></li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>{{(detailPersonalInf$ | async)?.age }}</span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>{{(detailPersonalInf$ | async)?.degree }}</span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>{{(detailPersonalInf$ | async)?.email }}</span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>{{(detailPersonalInf$ | async)?.freelancer }}</span></li>
+            </ul>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+
+  </div>
+</section><!-- End About Section -->
